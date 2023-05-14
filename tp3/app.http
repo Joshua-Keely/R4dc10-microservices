@@ -1,0 +1,20 @@
+POST http://localhost:5000/sayhello
+Content-Type: text/plain
+
+{"message": "Plain Text !"}
+
+###
+POST http://localhost:5000/sayhello
+Content-Type: application/json
+
+{"message": "Application/Json !"}
+
+###
+GET http://localhost:5000/hello2/Joshua
+Accept: application/json
+
+###
+GET http://localhost:5000/hello
+Accept: application/json
+
+###
