@@ -1,0 +1,25 @@
+POST http://localhost:5001/tasks
+Content-Type: application/json
+
+{"description": "Une Tache"}
+
+###
+PUT http://localhost:5001/tasks/tache-2
+Accept: application/json
+Content-Type: application/json
+
+{"description": "Une Nouvelle Tache"}
+
+###
+DELETE http://localhost:5000/tasks/tache-2
+Accept: application/json
+
+###
+GET http://localhost:5001/tasks
+Accept: application/json
+
+###
+GET http://localhost:5000/tasks/tache-2
+Accept: application/json
+
+###
