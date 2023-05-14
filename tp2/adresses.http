@@ -1,0 +1,8 @@
+GET https://geo.api.gouv.fr/communes?code=42059&fields=population
+Accept: application/json
+
+###
+GET https://api-adresse.data.gouv.fr/search/?q=Moulin%20Savigneux%2C%2042140&é
+Accept: application/json
+
+###
